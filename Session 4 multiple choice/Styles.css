@@ -1,0 +1,30 @@
+body {
+  font-family: Helvetica, Arial;
+  color: white;
+  background-color: black; 
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+button {
+  padding: 14px 40px;
+  background-color: white;
+  color:white;
+  border: 2px solid red;
+}
+
+.Goblin {
+  font-family: papyrus;
+  color: green
+}    
+
+.char {
+  border-radius: 50%;
+  border:5px solid;
+  border-color: grey;
+}

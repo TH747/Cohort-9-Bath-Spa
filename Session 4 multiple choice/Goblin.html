@@ -1,0 +1,115 @@
+<html>
+  <!DOCTYPE html>
+  <html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width-device-width, initial scale=1.0">
+  <link rel="stylesheet" href="Styles.css">
+  <style>
+  
+  .container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: black;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+    .myDiv {
+      border: 5px outset rgb(245, 0, 0);
+      width: 400px;
+      background-color:black (242, 241, 241);    
+      text-align: left;
+    }
+
+
+    </style>
+</head>
+
+<body>
+
+<h2><em>
+  A Goblin guard sneers at you through the bars of the cell...
+</em></h2>
+<hr/>
+
+<img class="char" src="Goblin.jpeg" alt="smelly goblin">
+  <p>
+  <div class="Goblin">
+    <h3>
+  "Ah looky here! You're gonna be locked up for a long time so don't even think about tryna escape ya sorry meat sack."
+    </h3>
+  </div>
+  </p>
+
+  <p>
+    <div class="myDiv">
+        <details>
+          <summary>
+            <em>
+            The goblin cackles and turns its back to you revealing a large set of keys.
+            </em>
+          </summary>
+    
+  <br/>
+    <div class="container">
+  <img src="Jail Key.jpeg" alt="Jail Keys" class="image"style="width:200px; height:200px">
+  <div class="middle">
+    <div class="button">
+      <button>
+      <a href="TakeTheKeys.html">Take the keys</a>
+      </button>  
+</div>
+    <!-- <b>
+    Reach out and take the keys?
+   </b>
+   <button>
+    <a href="TakeTheKeys.html">
+    </a>
+ </button> -->
+  <button>
+    <a href="DontTakeTheKeys.html">Don't try it
+    </a>
+  </button>
+  </p>
+    </div>
+        </details>
+
+
+
+
+
+</body>
+</html>
+  
