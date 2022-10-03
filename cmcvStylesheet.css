@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
+
+body {
+  font-family: 'Monsterrat', sans-serif;
+}
+
+h1 {
+  text-align: center;
+
+}
+
+img {
+  width: 200px;
+  height: 150px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+ 
+}
+
+.myDiv {
+  border: 5px outset grey;
+  width: 400px;
+  background-color: rgb(242, 241, 241);    
+  text-align: left;
+}
+
+.prof {
+
+transform: translateX(40px);
+
+}
+
+.right {
+  float: right;
+  width: 40%;
+  padding-right: 50px;
+  padding-left: 10px;
+  font-size: 20px;
+  line-height: 1.5rem;
+}
+
+.center {
+  text-align: center;
+}
+
